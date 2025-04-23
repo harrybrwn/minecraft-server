@@ -1,0 +1,99 @@
+{
+  "profiles": [
+    {
+      "name": "donkey",
+      "output_dir": "/opt/mods",
+      "filters": [
+        {
+          "ModLoaderPrefer": [
+            "Fabric"
+          ]
+        },
+        {
+          "GameVersionStrict": [
+            "1.21.5"
+          ]
+        }
+      ],
+      "mods": [
+        {
+          "name": "Almanac",
+          "identifier": {
+            "ModrinthProject": "Gi02250Z"
+          },
+          "slug": "almanac"
+        },
+        {
+          "name": "AppleSkin",
+          "identifier": {
+            "ModrinthProject": "EsAfCjCV"
+          },
+          "slug": "appleskin"
+        },
+        {
+          "name": "Architectury API",
+          "identifier": {
+            "ModrinthProject": "lhGA9TYQ"
+          },
+          "slug": "architectury-api"
+        },
+        {
+          "name": "Collective",
+          "identifier": {
+            "ModrinthProject": "e0M1UDsY"
+          },
+          "slug": "collective"
+        },
+        {
+          "name": "Fabric API",
+          "identifier": {
+            "ModrinthProject": "P7dR8mSH"
+          },
+          "slug": "fabric-api"
+        },
+        {
+          "name": "FerriteCore",
+          "identifier": {
+            "ModrinthProject": "uXXizFIs"
+          },
+          "slug": "ferrite-core"
+        },
+        {
+          "name": "Let Me Despawn",
+          "identifier": {
+            "ModrinthProject": "vE2FN5qn"
+          },
+          "slug": "lmd"
+        },
+        {
+          "name": "Lithium",
+          "identifier": {
+            "ModrinthProject": "gvQqBUqZ"
+          },
+          "slug": "lithium"
+        },
+        {
+          "name": "Sodium",
+          "identifier": {
+            "ModrinthProject": "AANobbMI"
+          },
+          "slug": "sodium"
+        },
+        {
+          "name": "Styled Player List",
+          "identifier": {
+            "ModrinthProject": "DQIfKUHf"
+          },
+          "slug": "styledplayerlist"
+        },
+        {
+          "name": "Your Items Are Safe",
+          "identifier": {
+            "ModrinthProject": "lL35xmSR"
+          },
+          "slug": "your-items-are-safe"
+        }
+      ]
+    }
+  ]
+}

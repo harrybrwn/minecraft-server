@@ -1,0 +1,6 @@
+services:
+  ferium:
+    image: harrybrwn/ferium:latest
+    volumes:
+      - ./mods:/opt/mods
+      - ./ferium.json:/root/.config/ferium/config.json
